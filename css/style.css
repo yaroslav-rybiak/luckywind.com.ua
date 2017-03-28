@@ -12,7 +12,7 @@ body {
 }
 
 .header-left {
-    padding-top: 10px;
+    padding-top: 25px;
     float: left;
 }
 
@@ -24,7 +24,7 @@ body {
 
 .carousel {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 1920px;
     -webkit-box-shadow: 0 10px 5px -5px #333;
     -moz-box-shadow: 0 10px 5px -5px #333;
     box-shadow: 0 15px 15px -5px #333;
@@ -176,4 +176,14 @@ cite {
 .footer li:before {
     content: "◾\00a0";
     color: #00aeef;
+}
+
+.footer-map {
+    padding-top: 10px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 10px;
 }
